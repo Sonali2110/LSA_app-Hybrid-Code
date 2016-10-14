@@ -1,0 +1,45 @@
+{
+  "ProjectName": "LSA",
+  "ProjectGuid": "bc07f853-989b-41fe-b5d6-b29e26a2d6e5",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.LSA",
+  "DisplayName": "LSA",
+  "Author": "",
+  "Description": "LSA",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{8c4af6bd-8f7d-4983-b02a-901f2324d20d}",
+  "WP8ProductID": "{93f27d79-c822-4c94-9940-32a7e6098e9f}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.LSA",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
