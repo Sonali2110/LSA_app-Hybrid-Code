@@ -1,0 +1,21 @@
+
+.item.item-trns-awards {
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: white; 
+    padding : 0;
+}
+
+
+
+.item.item-trns-awards * {
+    color: white;
+}
+
+
+.item-divider.item-trns *{
+    border-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+    padding: 2%;
+}

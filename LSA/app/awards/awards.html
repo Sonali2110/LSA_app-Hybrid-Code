@@ -1,0 +1,52 @@
+<ion-view view-title="Awards">
+	<ion-content>
+		<ion-list>
+
+
+			<ion-item-divider class='item-divider item-trns'>
+				<h3>30 Year Award</h3>
+			</ion-item-divider>
+
+			<ion-item class=' card item-thumbnail-left' ng-repeat='awardee in awardees' ui-sref='tabs.awards.awarddetails({name: awardee.name})'>
+
+				<img ng-src="{{imgsrc}}">
+				<h2>{{awardee.name}}</h2>
+				<p>{{awardee.desc}}</p>
+
+			</ion-item>
+
+			<ion-item-divider class='item-divider item-trns'>
+				<h3>20 Year Award</h3>
+			</ion-item-divider>
+
+			<ion-item class=" card item-thumbnail-left" ng-repeat='awardee in awardees' ui-sref='tabs.awards.awarddetails({name: awardee.name})'>
+				<img ng-src="{{imgsrc}}">
+				<h2>{{awardee.name}}</h2>
+				<p>{{awardee.desc}}</p>
+			</ion-item>
+
+			<ion-item-divider class='item-divider item-trns'>
+				<h3>15 Year Award</h3>
+			</ion-item-divider>
+
+			<ion-item class=" card item-thumbnail-left" ng-repeat='awardee in awardees' ui-sref='tabs.awards.awarddetails({name: awardee.name})'>
+				<img ng-src="{{imgsrc}}">
+				<h2>{{awardee.name}}</h2>
+				<p>{{awardee.desc}}</p>
+			</ion-item>
+
+
+			<ion-item-divider class='item-divider item-trns'>
+				<h3>10 Year Award</h3>
+			</ion-item-divider>
+
+			<ion-item class=" card item-thumbnail-left" ng-repeat='awardee in awardees' ui-sref='tabs.awards.awarddetails({name: awardee.name})'>
+				<img ng-src="{{imgsrc}}">
+				<h2>{{awardee.name}}</h2>
+				<p>{{awardee.desc}}</p>
+			</ion-item>
+
+		</ion-list>
+	</ion-content>
+
+</ion-view>

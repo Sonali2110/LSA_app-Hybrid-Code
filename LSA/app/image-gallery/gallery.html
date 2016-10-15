@@ -1,0 +1,22 @@
+<ion-view view-title='Gallery' class='pane'>
+	<ion-content ng-init="galCtrl.loadImages()">
+
+		<div class="row" ng-repeat="image in galCtrl.images" ng-if="$index % 2 === 0">
+			<div class="col col-50" ng-if="$index < galCtrl.images.length">
+				<img ng-src="{{galCtrl.images[$index].src}}" width="100%" ui-sref='tabs.gallery.galleryzoom({index: galCtrl.images[$index].id})'
+				/>
+			</div>
+			<div class="col col-50" ng-if="$index + 1 < galCtrl.images.length">
+				<img ng-src="{{galCtrl.images[$index + 1].src}}" width="100%" ui-sref='tabs.gallery.galleryzoom({index: galCtrl.images[$index + 1].id})'
+				/>
+			</div>
+			<!--<div class="col col-25" ng-if="$index + 2 < galCtrl.images.length">
+				<img ng-src="{{galCtrl.images[$index + 2].src}}" width="100%" />
+			</div>
+			<div class="col col-25" ng-if="$index + 3 < galCtrl.images.length">
+				<img ng-src="{{galCtrl.images[$index + 3].src}}" width="100%" />
+			</div>-->
+		</div>
+
+	</ion-content>
+</ion-view>
